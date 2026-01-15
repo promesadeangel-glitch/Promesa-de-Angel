@@ -696,19 +696,29 @@ footer {
 /* Imagen principal del producto */
 
 #main-image {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    /* ocupa todo el ancho disponible */
+    max-width: 350px;
+    /* límite en pantallas grandes */
+    aspect-ratio: 3 / 4;
+    /* ligeramente más alto que ancho */
     object-fit: cover;
+    /* recorta sin deformar */
     display: block;
     margin: 0 auto;
+    border-radius: 8px;
+    /* opcional: esquinas suaves */
 }
 
 
 /* Miniaturas debajo del producto */
 
 .thumb {
-    width: 90px;
-    height: 100px;
+    width: 100%;
+    max-width: 80px;
+    /* límite en pantallas grandes */
+    aspect-ratio: 1 / 1;
+    /* cuadradas */
     object-fit: cover;
     margin: 5px;
     cursor: pointer;
@@ -722,4 +732,18 @@ footer {
 
 .thumb.active {
     outline: 2px solid #000;
+}
+
+
+/* Ajustes específicos para móviles */
+
+@media (max-width: 768px) {
+    #main-image {
+        max-width: 100%;
+        /* que nunca se desborde */
+    }
+    .thumb {
+        max-width: 60px;
+        /* miniaturas más pequeñas en móvil */
+    }
 }
