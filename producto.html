@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Producto - Promesa de Angel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link href="LOGO-PROMESA-DE-ANGEL.jpeg" rel="icon">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+            <div class="gem"></div>
+        </div>
+        <!-- Replaced text with logo image -->
+        <img src="LOGO-PROMESA-DE-ANGEL.jpeg" alt="Promesa de Angel" class="loading-text">
+    </div>
+
+    <header>
+        <div class="header-container">
+            <!-- Replaced text with logo image -->
+            <div class="logo">
+                <!-- Replaced image with elegant text -->
+                <a href="index.html" class="logo-text">Promesa de Ángel.</a>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html#catalogo" class="nav-link">Productos</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <span class="close-menu">&times;</span>
+        <div class="mobile-links">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="index.html#catalogo" class="nav-link">Productos</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+        </div>
+    </div>
+
+    <main id="product-detail-container" class="container">
+        <div class="product-detail">
+            <!-- Gallery -->
+            <div class="gallery-section">
+                <div class="gallery-main">
+                    <img id="main-image" src="/placeholder.svg" alt="Imagen Principal">
+                </div>
+                <div id="gallery-thumbs" class="gallery-thumbs">
+                    <!-- Thumbs JS injected -->
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="detail-info">
+                <h1 id="product-name">Nombre del Producto</h1>
+                <p id="product-price" class="detail-price">$0.00</p>
+                <p id="product-desc">Descripción del producto...</p>
+
+                <!-- Added Mercado Libre Button Structure -->
+                <a id="mercado-libre-btn" href="#" target="_blank" class="btn btn-primary btn-mercado-libre">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>                    Comprar ahora en Mercado Libre
+                </a>
+
+                <a id="whatsapp-link" href="#" target="_blank" class="btn btn-primary whatsapp-btn" style="background-color: transparent; border: 1px solid #000; color: #000;">
+                    Consultar por WhatsApp
+                </a>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                    Respuesta en menos de 24h
+                </p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <!-- Replaced text with logo image -->
+                <center>
+                    <img src="LOGO-PROMESA-DE-ANGEL.jpeg" alt="Promesa de Ángel" class="logo-img">
+
+                    <p>Joyería fina diseñada para capturar momentos inolvidables.</p>
+                </center>
+            </div>
+            <div class="footer-section">
+
+                <center>
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </center>
+            </div>
+            <div class="footer-section">
+                <center>
+                    <h3>Contacto</h3>
+                    <p>promesa.de.angel@gmail.com</p>
+                    <p>+52 5654229610</p>
+                </center>
+            </div>
+
+        </div>
+        <p style="font-size: 0.9rem; color: #666; text-align: center;">
+            © 2025 Promesa de Ángel. Todos los derechos reservados.
+            <br>
+        </p>
+    </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

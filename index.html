@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promesa de Angel - Joyería Exclusiva</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link href="LOGO-PROMESA-DE-ANGEL.jpeg" rel="icon">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+            <div class="gem"></div>
+        </div>
+        <!-- Replaced text with logo image -->
+        <img src="LOGO-PROMESA-DE-ANGEL.jpeg" alt="Promesa de Angel" class="loading-text">
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <!-- Replaced text with logo image -->
+            <div class="logo">
+                <!-- Replaced image with elegant text -->
+                <a href="index.html" class="logo-text">Promesa de Ángel.</a>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <!-- Replaced Colecciones/Anillos/Collares with Productos -->
+                <a href="#catalogo" class="nav-link">Productos</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Menú Móvil -->
+    <div class="mobile-nav">
+        <span class="close-menu">&times;</span>
+        <div class="mobile-links">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <!-- Replaced Colecciones link with Productos link -->
+            <a href="#catalogo" class="nav-link">Productos</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Added logo image before the title as requested -->
+
+            <h1>Elegancia Eterna</h1>
+            <p style="margin-bottom: 2rem; font-size: 1.1rem;">Descubre nuestra nueva colección de joyería fina.</p>
+            <a href="#catalogo" class="btn">Ver Colección</a>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="container">
+        <h2 class="section-title">Nuestras Colecciones</h2>
+
+        <div class="filters">
+            <button class="filter-btn active" data-category="Todos">Todas</button>
+            <button class="filter-btn" data-category="Anillos">Anillos</button>
+            <button class="filter-btn" data-category="Collares">Collares</button>
+            <button class="filter-btn" data-category="Pendientes">Pendientes</button>
+            <button class="filter-btn" data-category="Pulseras">Pulseras</button>
+            <button class="filter-btn" data-category="Dijes">Dijes</button>
+        </div>
+
+        <div id="products-grid" class="products-grid">
+            <!-- JS injects cards here -->
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details-section">
+        <div class="details-grid">
+            <div class="details-content">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 1rem;">La belleza reside en los detalles</h2>
+                <p style="line-height: 1.6; color: #666; margin-bottom: 2rem;">
+                    "Promesa de Angel" Tu tienda de joyería 100% confiable: calidad, transparencia y compromiso en cada pieza que eliges..”
+                </p>
+                <a href="contacto.html" style="color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; padding-bottom: 2px;"> ¿Dudas?   ¡CONTACTENOS! →</a>
+            </div>
+            <div class="logo-frame">
+                <img src="LOGO-PROMESA-DE-ANGEL.jpeg" alt="Promesa de Angel Logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <!-- Replaced text with logo image -->
+                <p>Joyería fina diseñada para capturar momentos inolvidables.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>promesa.de.angel@gmail.com</p>
+                <p>+52 5654229610</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
