@@ -20,7 +20,7 @@ const products = [{
         id: "2",
         name: "Collar Valentino Sol.",
         category: "Collares",
-        price: 289,
+        price: 320,
         image: "./IMG/COLLARES/VALENTINO_SOL/COLLAR 1.png",
         images: [
             "./IMG/COLLARES/VALENTINO_SOL/COLLAR 1.png",
@@ -105,7 +105,7 @@ const products = [{
         id: "8",
         name: "Dije Virgen de Guadalupe",
         category: "Dijes",
-        price: 240,
+        price: 340,
         image: "./IMG/DIJES/VIRGEN_G/VIRGEN_G_1.jpeg",
         images: [
 
@@ -140,14 +140,14 @@ const products = [{
             "./IMG/DIJES/CRUZ/CRUZ_1.jpeg",
         ],
         description: "Dije crucifijo en plata .925 con figura de Cristo en relieve y placa superior con la inscripción INRI. Diseño clásico y devocional que combina detalles pulidos en la figura y textura en la cruz para realzar el relieve. Ideal como pieza de fe y uso diario, discreta y elegante.<br><br>Especificaciones:<br>• Material: Plata .925<br>• Diseño: Crucifijo con figura de Cristo en relieve<br>• Detalle: Placa con inscripción INRI<br>• Acabado: Figura pulida brillante; cruz con textura para contraste<br>• Montura: Anilla y bail resistente para cadena<br>• Hipoalergénico: Apto para pieles sensibles<br><br>Cuidados: Limpiar con paño suave para plata; evitar contacto con perfumes y productos químicos; guardar en estuche o bolsa para prevenir rayones y oxidación.<br><br>",
-        inStock: true,
+        inStock: false,
         mercadoLibreLink: "https://www.mercadolibre.com.mx/anillo-promesa-rosa",
     },
     {
         id: "11",
         name: "Dije MADONNA",
         category: "Dijes",
-        price: 380,
+        price: 320,
         image: "./IMG/DIJES/MADONNA/MADONNA_1.jpeg",
         images: [
 
@@ -175,7 +175,7 @@ const products = [{
         id: "13",
         name: "Medalla de San Benito ",
         category: "Dijes",
-        price: 230,
+        price: 320,
         image: "./IMG/DIJES/SAN_BENITO/MEDALLA_BENITO_.jpeg",
         images: [
 
